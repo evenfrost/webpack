@@ -25,9 +25,8 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "parallelshell 'npm run server' 'npm run webpack'",
+    "start": "npm run dev",
     "serve": "serve --port 5000 client",
-    "server": "webpack-dev-server --inline --config webpack.config.dev.babel.js",
-    "webpack": "webpack --watch --config webpack.config.dev.babel.js"
+    "dev": "webpack-dev-server --inline --config webpack.config.dev.babel.js"
   }
 }

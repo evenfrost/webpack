@@ -29,7 +29,6 @@ export default {
     }],
   },
   devServer: {
-    contentBase: resolve(__dirname, 'client'),
     hot: true,
     port: 5000,
   },

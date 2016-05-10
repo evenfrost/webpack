@@ -1,3 +1,4 @@
 import './index.styl';
 
-import _ from 'lodash';
+// import _ from 'lodash';
+console.log('dev');
